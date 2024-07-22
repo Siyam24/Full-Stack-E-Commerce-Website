@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<title>About-Sham Sports</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="navber">
+			<div class="logo">
+				<img src="IMG/sham-sports-high-resolution-logo-color-on-transparent-background.png" width="200px">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="Index.html">Home</a></li>
+					<li><a href="ProductPage.php">Product</a></li>
+					<li><a href="login.php">Account</a></li>
+					<li><a href="AboutPage.html">About Us</a></li>
+				</ul>
+			</nav>
+			<a href="AddtoCart.html"><img src="IMG/cart.png" width="30px" height="30px"></a>
+			<img src="IMG/menu.png" class="menu-icon" onClick="menutoggle()">
+		</div>
+	</div>
+	
+<!------------about-page------------->	
+<div class="about-page">
+	<div class="heading"> 
+		<h1>About Us</h1>
+	</div>
+	<div class="container">
+		<div class="about-content">
+				<div class="about-img">
+				<img src="IMG/about-us-page.png">
+		</div>
+				<p><br>
+					Welcome to Sham Cricket Shop, your one-stop destination for high-quality cricket equipment at unbeatable prices. Boasting an unriveled collection of cricket gear, we are dedicated to providing the best shopping experience for cricket lovers across the globe.
+					<br><br>
+					At Sham Cricket Shop, every cricket player deserves access to authentic, reliable, high-quality cricket equipment to help them perform their best on the field. We understand that searching for the right gear can be a daunting task, which is why we have brought together an extensive range of cricket products that cater to all levels of players.
+					<br><br>
+					Our vast collection includes Cricket bats, balls, gloves, pads, shoes, clothing, and much more, all from the top brands in the world. Whether you're a beginner, an intermediate, or a pro, we have covered you. Our inventory includes the latest and most popular products from esteemed brands like Puma and MRf.
+					<br><br>
+					Our mission is to make your online shopping experience hassle-free and enjoyable. We take pride in our unmatched customer service with offices in the US and UK, which is evident from the positive feedback we receive from our customers. We understand that you deserve the best, so we source our products directly from trusted partners of top brands. This ensures the authenticity of our products and allows us to offer them to you at the most competitive prices in the market.
+					<br><br>
+					At Sham Cricket Shop, we believe in building long-lasting relationships with our customers. We strive to provide you with the best products and services so that you can perform at your best on the field. With our fast and secure shipping, you can rest assured that your products will quickly be delivered to your doorstep.
+					<br><br>
+					So why wait? Start browsing our extensive collection today and take your cricket game to the next level with Sham Cricket Shop.
+				</p>	
+		</div>	
+	</div>
+</div>
+		
+<!----------Footer---------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and ios mobile phone.</p>
+					<div class="app-logo">
+						<img src="IMG/play-store.png">
+						<img src="IMG/app-store.png">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="IMG/sham-sports-high-resolution-logo-color-on-transparent-background.png">
+					<p>Our Purpose Is Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Link</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>Youtube</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2023 -  Siyam</p>
+		</div>
+	</div>
+		
+<!-----------js for toggle menu----------->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px"){
+				
+				MenuItems.style.maxHeight = "200px";
+			}
+			else{
+				
+				MenuItems.style.maxHeight = "0px";
+			}
+		}
+	</script>
+</body>
+</html>
